@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRM.Domain\CRM.Domain.csproj" />
+    <ProjectReference Include="..\CRM.Shared\CRM.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Behaviors\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Features\Customers\Commands\DeleteCustomer\" />
+    <Folder Include="Features\Customers\Commands\UpdateCustomer\" />
+    <Folder Include="Features\Customers\Mappings\" />
+    <Folder Include="Features\Customers\Queries\" />
+    <Folder Include="Features\Leads\" />
+    <Folder Include="Features\Roles\" />
+    <Folder Include="Features\Users\" />
+    <Folder Include="Features\Opportunities\" />
+    <Folder Include="Services\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+</Project>
