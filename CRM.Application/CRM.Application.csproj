@@ -18,7 +18,6 @@
     <Folder Include="Features\Customers\Commands\DeleteCustomer\" />
     <Folder Include="Features\Customers\Commands\UpdateCustomer\" />
     <Folder Include="Features\Customers\Mappings\" />
-    <Folder Include="Features\Customers\Queries\" />
     <Folder Include="Features\Leads\" />
     <Folder Include="Features\Roles\" />
     <Folder Include="Features\Users\" />
