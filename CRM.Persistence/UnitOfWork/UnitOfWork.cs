@@ -1,7 +1,7 @@
 ﻿using CRM.Application.Common.Interfaces;
 using CRM.Persistence.Context;
 
-namespace CRM.Persistence.UnitOfWork
+namespace CRM.Persistence.UnitOfWorks
 {
     public class UnitOfWork : IUnitOfWork
     {
